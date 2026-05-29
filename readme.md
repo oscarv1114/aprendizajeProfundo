@@ -24,7 +24,7 @@ Se implementó una red neuronal recurrente GRU en PyTorch para modelar dependenc
 
 ---
 
-## Ejercicio 4: [Ejercicio Pendiente]
+## Ejercicio 4: Despliegue de modelos de lenguaje (transformers)
 
 ### Descripción
-Ejercicio Pendiente
+Automatización de la clasificación de emociones en Twitter mediante un pipeline MLOps. Se despliega un modelo Transformer de Hugging Face como API REST usando FastAPI y Uvicorn, permitiendo procesar texto en tiempo real y por lotes de forma eficiente.
