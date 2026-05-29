@@ -17,14 +17,14 @@ Tiny ImageNet es un subconjunto de ImageNet reducido a 200 clases, con imágenes
 
 ---
 
-## Ejercicio 3: [Nombre Genérico 3]
+## Ejercicio 3: Implementación de RNNs/GRUs para modelar dependencias temporales en datos secuenciales
 
 ### Descripción
-Diseñar y entrenar un modelo no supervisado con el propósito de comprimir la dimensionalidad de un conjunto de datos multidimensional, extraer sus características esenciales (*embeddings*) y realizar tareas de reconstrucción de datos o detección de anomalías.
+Se implementó una red neuronal recurrente GRU en PyTorch para modelar dependencias temporales en datos secuenciales de demanda horaria de bicicletas. Los datos fueron normalizados y organizados en secuencias de 24 horas. La arquitectura utiliza una capa GRU con 64 unidades ocultas, Dropout (p=0.2) y una capa lineal de salida. El entrenamiento empleó Adam (lr=0.001), MSELoss, batch size de 256 y hasta 150 épocas, incorporando EarlyStopping, scheduler dinámico y gradient clipping.
 
 ---
 
-## Ejercicio 4: [Nombre Genérico 4]
+## Ejercicio 4: [Ejercicio Pendiente]
 
 ### Descripción
-Utilizar una red neuronal preentrenada en un corpus masivo de datos para adaptarla a una tarea de clasificación específica y de dominio cerrado. El enfoque exige congelar capas base y entrenar únicamente las capas superiores para optimizar el tiempo de cómputo y aprovechar el conocimiento previo del modelo.
+Ejercicio Pendiente
